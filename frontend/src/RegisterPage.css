@@ -1,0 +1,53 @@
+.register-page {
+    background-image: url('../moneybg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.register-container {
+    min-width: 500px;
+    padding: 20px;
+    border: 1px solid #e0dbdb;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+
+.register-container h2 {
+    color: #0a0808;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.register-container input[type="text"], .register-container input[type="password"], .register-container input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+.register-container button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    color: white;
+    background-color: #0073e6;
+    border-radius: 4px;
+}
+
+.register-container button:hover {
+    background-color: #005bb5;
+}
+

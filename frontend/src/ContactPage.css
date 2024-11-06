@@ -1,0 +1,64 @@
+
+  .faq-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .faq-section h2 {
+    color: #1cbfff;
+    font-size: 64px;
+  }
+  
+  
+  .faq-section li {
+    margin-bottom: 20px;
+  }
+  
+  
+  .back-button {
+    font-size: 16px;
+    padding: 6px 10px;
+    color: #ececec;
+    background-color: #499cdf;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .message {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border: 1px solid #030303;
+    border-radius: 8px;
+    width: 100%;
+  
+  }
+  
+  .message h3 {
+    font-size: 1.3em;
+    color: #0073e6;
+    margin-bottom: 10px;
+  }
+
+  
+  .message button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  
+  .message button:hover {
+    background-color: #218838;
+  }
+
+  .message textarea {
+    min-width: 500px;
+    min-height: 200px;
+  }
+  

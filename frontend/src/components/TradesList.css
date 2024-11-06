@@ -1,0 +1,43 @@
+
+.trades-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .trades-table th, .trades-table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #7e7e7e;
+}
+  
+  .trades-table th {
+    background-color: #c2f4ff;
+    font-weight: bold;
+}
+  
+  
+  .trades-delete-button {
+    padding: 12px;
+    color: #fff;
+    background-color: #ff4d4d;
+    border-radius: 5px;
+  }
+  
+  .trades-delete-button:hover {
+    background-color: #ff3333;
+}
+
+.trades-edit-button {
+  padding: 12px;
+  color: #fff;
+  background-color: #499cdf;
+  border-radius: 5px;
+}
+.trades-edit-button:hover {
+  background-color: #72abf1;
+}
+  
+.action-column {
+  
+}

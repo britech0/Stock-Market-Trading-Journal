@@ -1,0 +1,54 @@
+.trade-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .trade-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .trade-table th, .trade-table td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .trade-table th {
+    font-weight: bold;
+    width: 30%;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .logout-button {
+    font-size: 17px;
+    color: #fff;
+    background-color: #9a9a9a;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .submit-button:hover {
+    background-color: #0056b3;
+  }

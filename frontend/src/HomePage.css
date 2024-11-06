@@ -1,0 +1,35 @@
+.logout-button {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #c2c2c2;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.help-button {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #d59900;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;   
+}
+
+.Add-button {
+    padding: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #007b44;
+    border-radius: 4px;
+}
+
+.addDiv {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 150px;
+
+}
