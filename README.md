@@ -3,6 +3,12 @@
  - I am building this simple long-only trading journal to learn & practice react + microservices architecture.
  What I learned: I learned how to create HTTP RESTful APIs using Javascript to create, read, update, and delete trade entries in the back-end communication with the MongoDB database and relay the reflected changes to the frontend. I also am learning git, jsonwebtoken authentication, react components, and how to utilize and implement another developer's microservice using ZeroMQ connecting to a server. This project is currently still in-progress as I am continuously building upon technical skills that I have learned.
 
+Languages / Technologies / Tools Used:
+- Javascript, HTML, CSS
+- React.js, Node.js, Express.js, Recharts, ZeroMQ, Postman
+- MongoDB
+
+
 Intended Use Case:
 - For users who want to track their trades and see their profit and loss performance over time.
 
