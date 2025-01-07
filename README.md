@@ -12,6 +12,14 @@ Tools used:
 - Recharts library for the line chart
 - ZeroMQ to handle the two microservices that generate the pie chart and mini stats window which was a requirement during class to integerate a microservice architecture.
 
+Features:
+- Login/Register page
+- Json Web Token Authentication
+- Add, Edit, Delete buttons and forms for trade data entry
+- Line graph detailing results trend
+- Average performance by win rate, breakeven win rate, and current win rate
+- Pie chart of wins vs losses
+
 To use:
 - Make a copy of the repository / download the files
 - Connect to a mongoDB cluster
