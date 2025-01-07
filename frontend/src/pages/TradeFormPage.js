@@ -17,6 +17,7 @@ function TradeFormPage() {
     symbol: '',
     entryPrice: '',
     exitPrice: '',
+    stoplossPrice: '',
     positionSize: '',
     tradeType: '',
     entryDate: '',
@@ -100,6 +101,18 @@ function TradeFormPage() {
                   type="number"
                   value={trade.exitPrice}
                   onChange={(e) => setTrade({ ...trade, exitPrice: e.target.value })}
+                  className="input-field"
+                />
+                </td>
+            </tr>
+
+            <tr>
+              <th>Stoploss Price:</th>
+                <td>
+                <input
+                  type="number"
+                  value={trade.stoplossPrice}
+                  onChange={(e) => setTrade({ ...trade, stoplossPrice: e.target.value })}
                   className="input-field"
                 />
                 </td>

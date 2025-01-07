@@ -19,13 +19,13 @@
   
   
   .back-button {
+    padding: 11px;
     font-size: 16px;
-    padding: 6px 10px;
-    color: #ececec;
+    color: #fff;
     background-color: #499cdf;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
+    cursor: pointer; 
   }
   
   .message {
@@ -49,8 +49,10 @@
     background-color: #28a745;
     color: white;
     padding: 10px 20px;
-    border-radius: 4px;
+    border-radius: 8px;
     font-size: 1em;
+    margin-left: 15px;
+    
   }
   
   .message button:hover {

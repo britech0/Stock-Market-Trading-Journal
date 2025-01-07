@@ -44,6 +44,7 @@ function TradesList({ trades }) {
             <th>Symbol</th>
             <th>Entry Price</th>
             <th>Exit Price</th>
+            <th>Stoploss Price</th>
             <th>Position Size</th>
             <th>PnL</th> 
             <th>Trade Type</th>
@@ -64,6 +65,7 @@ function TradesList({ trades }) {
                   <td>{trade.symbol}</td>
                   <td>{trade.entryPrice}</td>
                   <td>{trade.exitPrice}</td>
+                  <td>{trade.stoplossPrice}</td>
                   <td>{trade.positionSize}</td>
                   <td>${tradePNL.toFixed(2)}</td>
                   <td>{trade.tradeType}</td>

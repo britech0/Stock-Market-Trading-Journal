@@ -1,3 +1,8 @@
+body {
+    background-image: '../gradient.jpg';
+}
+
+
 .logout-button {
     padding: 10px;
     font-size: 16px;
@@ -9,7 +14,7 @@
 }
 
 .help-button {
-    padding: 10px;
+    padding: 11px;
     font-size: 16px;
     color: #fff;
     background-color: #d59900;
@@ -19,17 +24,36 @@
 }
 
 .Add-button {
-    padding: 10px;
+    padding: 12px;
     font-size: 16px;
     color: #ffffff;
     background-color: #007b44;
     border-radius: 4px;
 }
 
-.addDiv {
+.add-Div {
     display: flex;
     justify-content: end;
     align-items: end;
-    margin-right: 150px;
+    margin-right: 50px;
 
+}
+
+.visual-container {
+    display: flex;
+    align-items: center;
+    justify-content:space-around; 
+    gap: 20px; 
+  }
+  
+  .visual-container > * {
+    flex: 1; 
+  }
+
+.timeframe-buttons {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #ecfbf6;
 }

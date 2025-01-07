@@ -5,6 +5,9 @@ import { Link } from 'react-router-dom';
 import TradesList from '../components/TradesList';
 import ProfitLossChart from '../components/ProfitLossChart';
 import { useNavigate} from 'react-router-dom';
+import ProcessDataButton from '../components/ProcessDataButton';
+import MicroserviceDButton from '../components/MicroserviceDButton';
+
 import '../HomePage.css';
 
 function HomePage() {
@@ -60,15 +63,18 @@ function HomePage() {
 
 
       <div>
-        <button onClick={() => setTimeframe('3months')}>Last 3 Months</button>
-        <button onClick={() => setTimeframe('6months')}>Last 6 Months</button>
-        <button onClick={() => setTimeframe('all')}>All Time</button>
+        <button onClick={() => setTimeframe('3months')} className="timeframe-buttons">Last 3 Months</button>
+        <button onClick={() => setTimeframe('6months')} className="timeframe-buttons" >Last 6 Months</button>
+        <button onClick={() => setTimeframe('all')} className="timeframe-buttons" >All Time</button>
       </div>
 
-
+      <div className='visual-container'>
       <ProfitLossChart data={summaryData} />
+      <ProcessDataButton />
+      <MicroserviceDButton />
+      </div>
 
-      <div className="addDiv">
+      <div className="add-Div">
       <button onClick={addTrade} className="Add-button">Add Trade</button>
       </div>
       

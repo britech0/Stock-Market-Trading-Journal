@@ -9,11 +9,13 @@
     padding: 10px;
     text-align: center;
     border-bottom: 1px solid #7e7e7e;
+    border: solid 1px black
 }
   
   .trades-table th {
-    background-color: #c2f4ff;
+    background-color: #ffffff;
     font-weight: bold;
+    border: solid 2px black;
 }
   
   
