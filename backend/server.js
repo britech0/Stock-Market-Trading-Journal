@@ -4,8 +4,8 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const app = express();
 const processRoutes = require('./routes/process');
-const microbRoutes = require('./routes/microb');
-const microcRoutes = require('./routes/microc');
+//const microbRoutes = require('./routes/microb');//
+//const microcRoutes = require('./routes/microc');//
 const microdRoutes = require('./routes/microd.js');
 
 
@@ -25,8 +25,8 @@ app.use('/api/trades', tradeRoutes);
 app.use('/api/contact', contactRoutes)
 app.use('/auth', authRoutes)
 app.use('/process-stock-data', processRoutes);
-app.use('/microservice-b', microbRoutes);
-app.use('/microservice-c', microcRoutes);
+//app.use('/microservice-b', microbRoutes);//
+//app.use('/microservice-c', microcRoutes);//
 app.use('/microservice-d', microdRoutes);
 
 
