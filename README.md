@@ -22,8 +22,10 @@ Features:
 
 To use:
 - Make a copy of the repository / download the files
-- Connect to a mongoDB cluster
-- Npm start in the backend and frontend as well as the microservice file
+- Create .env file, Connect to a mongoDB cluster by adding the string to MONGO_URI="<string>", JWT_SECRET
+- Npm start in the backend and frontend
+- In a new terminal type node microserviced.js to start the pie chart microservice file.
+- In a new terminal type python microservicea.js to start the statistics microservice file.
 
 
 Screenshots of the login page, homepage, trade form page, and contact page:
